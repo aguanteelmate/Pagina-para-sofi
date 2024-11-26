@@ -1,0 +1,107 @@
+/* General */
+body {
+  font-family: 'Comic Sans MS', Arial, sans-serif;
+  background: linear-gradient(to bottom, #ffeff0, #ffd5f5);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  color: #333;
+}
+
+h1 {
+  color: #ff69b4;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.pagina {
+  width: 90%;
+  max-width: 800px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Bloque de texto */
+blockquote {
+  font-size: 1.1em;
+  line-height: 1.8em;
+  margin: 20px 0;
+  padding: 20px;
+  border-left: 4px solid #ff69b4;
+  background: #fef5f7;
+  border-radius: 5px;
+}
+
+.mensaje {
+  font-size: 1.1em;
+  line-height: 1.8em;
+  text-align: justify;
+  margin: 20px 0;
+}
+
+/* Botón */
+button {
+  font-size: 1.2em;
+  padding: 10px 20px;
+  margin-top: 20px;
+  color: #fff;
+  background-color: #9370db;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #7b68ee;
+}
+
+/* Galería */
+.galeria {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px 0;
+}
+
+.foto {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 10px;
+}
+
+figcaption {
+  font-size: 1em;
+  color: #555;
+  font-style: italic;
+  text-align: center;
+  margin-top: 5px;
+}
+
+
+.imagen-izquierda, .imagen-derecha {
+    position: absolute;
+    bottom: 0;  /* Colocar las imágenes en la parte inferior */
+}
+
+.imagen-izquierda {
+    left: 0;  /* Posicionar la imagen en la esquina inferior izquierda */
+}
+
+.imagen-derecha {
+    right: 0;  /* Posicionar la imagen en la esquina inferior derecha */
+}
+
+/* Ajustar el tamaño de las imágenes */
+img {
+    width: 200px;  /* Ajusta el tamaño de las imágenes */
+    height: auto;
+}
